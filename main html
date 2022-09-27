@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html onerror='errorsrc();' >
+<body onload='loaded();'>
+<script > 
+function errorsrc () {alert("a error has occured while trying to lunch assistant.exe please try agein later while we fix this issue.");} 
+</script>
+<script>
+function loaded () {alert("successfully loaded alexa.exe.setup");}
+</script>
+<h1>
+alexa.exe set up </h1> <p> alexa.exe is a improved version of js alexa by daschoolcoder with visual features!</p><label for="userid">please enter your 6 didget alexa user id code here  </label> <input placeholder="user code" id="userid" name="userid" type="password">  <input type="submit" value="Submit" onerror='errorsrc();' onclick='pasw();'>
+<script> function pasw () {let code = document.getElementById("userid").value;if (code == 250381) {alert("user code correct lanching alexa.exe ");}else {alert("incorrect password");} ;} </script>
+<br>
+<p> if you forgot the user code <a href="cool"> click here for help </a> </p>
+<br> <p>by daschoolcoder </p>
+</body>
+</html>
