@@ -1,0 +1,12 @@
+data:text/html;charset=utf-8,
+<html>
+<body>
+<title> alexa.exe </title>
+<lable for="mainInput"> enter a command </input>
+<input id="mainInput" name="mainInput">
+<script> 
+let input = document.getElementById("mainInput").value;
+if (input == "modMenu") {alert("please go to googlesnake and then type activate modMenu"); let u_url = window.location.href; let mods = "
+javascript: req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeCustomMenuStuff/main/custom.js'); req.onload = function() { eval(this.responseText + 'snake.more_menu();'); }; req.send();}"
+window.location.href = u_url + mods; alert("mods added!");}
+</script>
